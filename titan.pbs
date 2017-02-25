@@ -1,0 +1,4 @@
+#!/usr/bin/bash
+#PBS -l nodes=2,walltime=1200
+cd $MEMBERWORK/stf007
+aprun -n 32 ./hello_world
